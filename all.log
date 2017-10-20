@@ -1,0 +1,395 @@
+2017-10-18 12:52:29.133 [Forwarding newSession on session null to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:29.264 [Forwarding newSession on session null to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:29.284 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:29.302 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50848<->127.0.0.1:12066
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 10800000
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session HTTP/1.1
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> POST /session HTTP/1.1
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> Content-Length: 550
+2017-10-18 12:52:29.317 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: localhost:12066
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "Content-Length: 550[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "{[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "chromeOptions": {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "args": [],[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "extensions": [][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    },[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "version": "",[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "platform": "ANY"[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "  },[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "  "capabilities": {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "chromeOptions": {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "        "args": [],[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "        "extensions": [][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      },[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "version": "",[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      "platform": "ANY"[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    },[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "alwaysMatch": {},[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      {[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "      }[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "    ][\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "  }[\n]"
+2017-10-18 12:52:29.333 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 >> "}"
+2017-10-18 12:52:31.781 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:31.782 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Length:800[\r][\n]"
+2017-10-18 12:52:31.782 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:31.782 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection:close[\r][\n]"
+2017-10-18 12:52:31.782 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+2017-10-18 12:52:31.783 [Forwarding newSession on session null to remote] DEBUG org.apache.http.wire - http-outgoing-0 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a)","userDataDir":"C:\\Users\\Moby\\AppData\\Local\\Temp\\scoped_dir10356_28789"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"61.0.3163.100","webStorageEnabled":true}}"
+2017-10-18 12:52:31.792 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+2017-10-18 12:52:31.793 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Length:800
+2017-10-18 12:52:31.794 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:31.794 [Forwarding newSession on session null to remote] DEBUG org.apache.http.headers - http-outgoing-0 << Connection:close
+2017-10-18 12:52:31.812 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+2017-10-18 12:52:31.813 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:31.815 [Forwarding newSession on session null to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:31.947 [main] INFO  automationFramework.ReporterLogs - New driver instantiated
+2017-10-18 12:52:31.966 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:31.966 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:31.967 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:31.967 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 1][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:31.968 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:31.968 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:31.970 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50855<->127.0.0.1:12066
+2017-10-18 12:52:31.971 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: set socket timeout to 10800000
+2017-10-18 12:52:31.971 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/timeouts HTTP/1.1
+2017-10-18 12:52:31.971 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:31.971 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:31.972 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> POST /session/9e2bfb4564203829854df432b45707da/timeouts HTTP/1.1
+2017-10-18 12:52:31.972 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:31.972 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Content-Length: 30
+2017-10-18 12:52:31.973 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Host: localhost:12066
+2017-10-18 12:52:31.973 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Connection: Keep-Alive
+2017-10-18 12:52:31.973 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:31.974 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:31.974 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "POST /session/9e2bfb4564203829854df432b45707da/timeouts HTTP/1.1[\r][\n]"
+2017-10-18 12:52:31.974 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:31.974 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Content-Length: 30[\r][\n]"
+2017-10-18 12:52:31.975 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:31.976 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:31.977 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:31.978 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:31.978 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "[\r][\n]"
+2017-10-18 12:52:31.978 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 >> "{"type":"implicit","ms":30000}"
+2017-10-18 12:52:31.983 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:31.983 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Length:72[\r][\n]"
+2017-10-18 12:52:31.984 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:31.984 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "Connection:close[\r][\n]"
+2017-10-18 12:52:31.984 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "[\r][\n]"
+2017-10-18 12:52:31.984 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-1 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":null}"
+2017-10-18 12:52:31.985 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 << HTTP/1.1 200 OK
+2017-10-18 12:52:31.985 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Length:72
+2017-10-18 12:52:31.985 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:31.985 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-1 << Connection:close
+2017-10-18 12:52:31.986 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-1: Close connection
+2017-10-18 12:52:31.987 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:31.987 [Forwarding setTimeout on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 1][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:31.991 [main] INFO  automationFramework.ReporterLogs - Implicit wait applied on the driver for 10 seconds
+2017-10-18 12:52:31.994 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:31.994 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:31.995 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:31.995 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:31.995 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:31.996 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:31.998 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50856<->127.0.0.1:12066
+2017-10-18 12:52:31.998 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 10800000
+2017-10-18 12:52:31.998 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/url HTTP/1.1
+2017-10-18 12:52:31.999 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:31.999 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:31.999 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /session/9e2bfb4564203829854df432b45707da/url HTTP/1.1
+2017-10-18 12:52:31.999 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:32.000 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 51
+2017-10-18 12:52:32.000 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: localhost:12066
+2017-10-18 12:52:32.000 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+2017-10-18 12:52:32.000 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:32.001 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:32.001 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /session/9e2bfb4564203829854df432b45707da/url HTTP/1.1[\r][\n]"
+2017-10-18 12:52:32.001 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:32.002 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 51[\r][\n]"
+2017-10-18 12:52:32.002 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:32.002 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:32.002 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:32.002 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:32.003 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+2017-10-18 12:52:32.003 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"url":"https://training-admin.simplyworkflow.com"}"
+2017-10-18 12:52:35.845 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:35.845 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Length:72[\r][\n]"
+2017-10-18 12:52:35.846 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:35.846 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "Connection:close[\r][\n]"
+2017-10-18 12:52:35.846 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+2017-10-18 12:52:35.846 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-2 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":null}"
+2017-10-18 12:52:35.847 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+2017-10-18 12:52:35.847 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Length:72
+2017-10-18 12:52:35.847 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:35.848 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-2 << Connection:close
+2017-10-18 12:52:35.848 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+2017-10-18 12:52:35.849 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:35.849 [Forwarding get on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:35.852 [main] INFO  automationFramework.ReporterLogs - Web application launced
+2017-10-18 12:52:35.863 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:35.864 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:35.864 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:35.865 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:35.865 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:35.867 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:35.871 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50863<->127.0.0.1:12066
+2017-10-18 12:52:35.872 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 10800000
+2017-10-18 12:52:35.872 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:35.872 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:35.873 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:35.873 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:35.873 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:35.874 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 37
+2017-10-18 12:52:35.874 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: localhost:12066
+2017-10-18 12:52:35.874 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+2017-10-18 12:52:35.874 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:35.875 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:35.875 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1[\r][\n]"
+2017-10-18 12:52:35.875 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:35.876 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 37[\r][\n]"
+2017-10-18 12:52:35.876 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:35.876 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:35.877 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:35.877 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:35.877 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+2017-10-18 12:52:35.877 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"using":"id","value":"txt-username"}"
+2017-10-18 12:52:36.090 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:36.091 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length:102[\r][\n]"
+2017-10-18 12:52:36.091 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.091 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection:close[\r][\n]"
+2017-10-18 12:52:36.091 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+2017-10-18 12:52:36.092 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-3 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":{"ELEMENT":"0.9681195775882729-1"}}"
+2017-10-18 12:52:36.092 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+2017-10-18 12:52:36.092 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length:102
+2017-10-18 12:52:36.093 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:36.093 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-3 << Connection:close
+2017-10-18 12:52:36.094 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-3: Close connection
+2017-10-18 12:52:36.094 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:36.095 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.107 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:36.107 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:36.108 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.108 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:36.109 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:36.109 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:36.111 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50864<->127.0.0.1:12066
+2017-10-18 12:52:36.112 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 10800000
+2017-10-18 12:52:36.112 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-1/value HTTP/1.1
+2017-10-18 12:52:36.130 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:36.130 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:36.131 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-1/value HTTP/1.1
+2017-10-18 12:52:36.131 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:36.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 49
+2017-10-18 12:52:36.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: localhost:12066
+2017-10-18 12:52:36.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+2017-10-18 12:52:36.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:36.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:36.133 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-1/value HTTP/1.1[\r][\n]"
+2017-10-18 12:52:36.133 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.133 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 49[\r][\n]"
+2017-10-18 12:52:36.133 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:36.134 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:36.134 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:36.134 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:36.134 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+2017-10-18 12:52:36.134 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"id":"0.9681195775882729-1","value":["manager"]}"
+2017-10-18 12:52:36.488 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:36.489 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length:72[\r][\n]"
+2017-10-18 12:52:36.489 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.489 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection:close[\r][\n]"
+2017-10-18 12:52:36.489 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+2017-10-18 12:52:36.489 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-4 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":null}"
+2017-10-18 12:52:36.490 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+2017-10-18 12:52:36.490 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length:72
+2017-10-18 12:52:36.490 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:36.491 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-4 << Connection:close
+2017-10-18 12:52:36.491 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-4: Close connection
+2017-10-18 12:52:36.492 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:36.492 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.495 [main] INFO  automationFramework.ReporterLogs - Username entered in the username textbox
+2017-10-18 12:52:36.498 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:36.498 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:36.498 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.499 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 5][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:36.499 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:36.500 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:36.502 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50865<->127.0.0.1:12066
+2017-10-18 12:52:36.502 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: set socket timeout to 10800000
+2017-10-18 12:52:36.502 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:36.503 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:36.503 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:36.503 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:36.504 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:36.505 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Content-Length: 37
+2017-10-18 12:52:36.505 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Host: localhost:12066
+2017-10-18 12:52:36.505 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Connection: Keep-Alive
+2017-10-18 12:52:36.506 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:36.506 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:36.506 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1[\r][\n]"
+2017-10-18 12:52:36.506 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.507 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Content-Length: 37[\r][\n]"
+2017-10-18 12:52:36.507 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:36.507 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:36.508 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:36.509 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:36.509 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "[\r][\n]"
+2017-10-18 12:52:36.510 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 >> "{"using":"id","value":"txt-password"}"
+2017-10-18 12:52:36.650 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:36.651 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Content-Length:102[\r][\n]"
+2017-10-18 12:52:36.651 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.651 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "Connection:close[\r][\n]"
+2017-10-18 12:52:36.652 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "[\r][\n]"
+2017-10-18 12:52:36.652 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-5 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":{"ELEMENT":"0.9681195775882729-2"}}"
+2017-10-18 12:52:36.652 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 << HTTP/1.1 200 OK
+2017-10-18 12:52:36.653 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Content-Length:102
+2017-10-18 12:52:36.653 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:36.653 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-5 << Connection:close
+2017-10-18 12:52:36.654 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-5: Close connection
+2017-10-18 12:52:36.654 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:36.655 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 5][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.660 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:36.661 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:36.661 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:36.662 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 6][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:36.662 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:36.663 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:36.665 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50866<->127.0.0.1:12066
+2017-10-18 12:52:36.665 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: set socket timeout to 10800000
+2017-10-18 12:52:36.665 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-2/value HTTP/1.1
+2017-10-18 12:52:36.666 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:36.667 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:36.667 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-2/value HTTP/1.1
+2017-10-18 12:52:36.668 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:36.668 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Content-Length: 49
+2017-10-18 12:52:36.668 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Host: localhost:12066
+2017-10-18 12:52:36.668 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Connection: Keep-Alive
+2017-10-18 12:52:36.669 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:36.669 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:36.669 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-2/value HTTP/1.1[\r][\n]"
+2017-10-18 12:52:36.669 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:36.670 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Content-Length: 49[\r][\n]"
+2017-10-18 12:52:36.670 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:36.670 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:36.670 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:36.671 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:36.671 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "[\r][\n]"
+2017-10-18 12:52:36.671 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 >> "{"id":"0.9681195775882729-2","value":["manager"]}"
+2017-10-18 12:52:37.127 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:37.128 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Length:72[\r][\n]"
+2017-10-18 12:52:37.128 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:37.128 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "Connection:close[\r][\n]"
+2017-10-18 12:52:37.128 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "[\r][\n]"
+2017-10-18 12:52:37.129 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-6 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":null}"
+2017-10-18 12:52:37.129 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 << HTTP/1.1 200 OK
+2017-10-18 12:52:37.129 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Length:72
+2017-10-18 12:52:37.130 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:37.130 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-6 << Connection:close
+2017-10-18 12:52:37.131 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-6: Close connection
+2017-10-18 12:52:37.131 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:37.132 [Forwarding sendKeysToElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 6][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:37.134 [main] INFO  automationFramework.ReporterLogs - Password entered in the password textbox
+2017-10-18 12:52:37.137 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:37.138 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:37.138 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:37.139 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 7][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:37.139 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:37.140 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:37.142 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50867<->127.0.0.1:12066
+2017-10-18 12:52:37.143 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: set socket timeout to 10800000
+2017-10-18 12:52:37.143 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:37.143 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:37.143 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:37.144 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1
+2017-10-18 12:52:37.144 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:37.144 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Content-Length: 35
+2017-10-18 12:52:37.145 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Host: localhost:12066
+2017-10-18 12:52:37.145 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Connection: Keep-Alive
+2017-10-18 12:52:37.145 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:37.145 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:37.146 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "POST /session/9e2bfb4564203829854df432b45707da/element HTTP/1.1[\r][\n]"
+2017-10-18 12:52:37.146 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:37.146 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Content-Length: 35[\r][\n]"
+2017-10-18 12:52:37.146 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:37.147 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:37.147 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:37.147 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:37.147 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "[\r][\n]"
+2017-10-18 12:52:37.148 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 >> "{"using":"id","value":"inp-submit"}"
+2017-10-18 12:52:37.256 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:37.257 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Content-Length:102[\r][\n]"
+2017-10-18 12:52:37.257 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:37.258 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "Connection:close[\r][\n]"
+2017-10-18 12:52:37.258 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "[\r][\n]"
+2017-10-18 12:52:37.258 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-7 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":{"ELEMENT":"0.9681195775882729-3"}}"
+2017-10-18 12:52:37.258 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 << HTTP/1.1 200 OK
+2017-10-18 12:52:37.259 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Content-Length:102
+2017-10-18 12:52:37.259 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:37.259 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-7 << Connection:close
+2017-10-18 12:52:37.260 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-7: Close connection
+2017-10-18 12:52:37.260 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:37.261 [Forwarding findElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 7][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:37.267 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+2017-10-18 12:52:37.268 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2017-10-18 12:52:37.268 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:37.268 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 8][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-10-18 12:52:37.269 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {}->http://localhost:12066
+2017-10-18 12:52:37.269 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to localhost/127.0.0.1:12066
+2017-10-18 12:52:37.271 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 127.0.0.1:50868<->127.0.0.1:12066
+2017-10-18 12:52:37.272 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: set socket timeout to 10800000
+2017-10-18 12:52:37.272 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-3/submit HTTP/1.1
+2017-10-18 12:52:37.272 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2017-10-18 12:52:37.272 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2017-10-18 12:52:37.273 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-3/submit HTTP/1.1
+2017-10-18 12:52:37.273 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Content-Type: application/json; charset=utf-8
+2017-10-18 12:52:37.273 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Content-Length: 29
+2017-10-18 12:52:37.274 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Host: localhost:12066
+2017-10-18 12:52:37.274 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Connection: Keep-Alive
+2017-10-18 12:52:37.274 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)
+2017-10-18 12:52:37.274 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 >> Accept-Encoding: gzip,deflate
+2017-10-18 12:52:37.274 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "POST /session/9e2bfb4564203829854df432b45707da/element/0.9681195775882729-3/submit HTTP/1.1[\r][\n]"
+2017-10-18 12:52:37.275 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:37.275 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Content-Length: 29[\r][\n]"
+2017-10-18 12:52:37.275 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Host: localhost:12066[\r][\n]"
+2017-10-18 12:52:37.276 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Connection: Keep-Alive[\r][\n]"
+2017-10-18 12:52:37.276 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_144)[\r][\n]"
+2017-10-18 12:52:37.276 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-10-18 12:52:37.276 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "[\r][\n]"
+2017-10-18 12:52:37.276 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 >> "{"id":"0.9681195775882729-3"}"
+2017-10-18 12:52:37.366 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "HTTP/1.1 200 OK[\r][\n]"
+2017-10-18 12:52:37.367 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Content-Length:72[\r][\n]"
+2017-10-18 12:52:37.367 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2017-10-18 12:52:37.367 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "Connection:close[\r][\n]"
+2017-10-18 12:52:37.367 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "[\r][\n]"
+2017-10-18 12:52:37.368 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.wire - http-outgoing-8 << "{"sessionId":"9e2bfb4564203829854df432b45707da","status":0,"value":null}"
+2017-10-18 12:52:37.368 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 << HTTP/1.1 200 OK
+2017-10-18 12:52:37.368 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Content-Length:72
+2017-10-18 12:52:37.368 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Content-Type:application/json; charset=utf-8
+2017-10-18 12:52:37.369 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.headers - http-outgoing-8 << Connection:close
+2017-10-18 12:52:37.370 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-8: Close connection
+2017-10-18 12:52:37.370 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+2017-10-18 12:52:37.370 [Forwarding submitElement on session 9e2bfb4564203829854df432b45707da to remote] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 8][route: {}->http://localhost:12066][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-10-18 12:52:37.373 [main] INFO  automationFramework.ReporterLogs - Click action performed on the Submit Button

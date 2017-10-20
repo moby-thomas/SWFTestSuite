@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SWF Test Suite]">
+  <test name="SWF Test(failed)">
+    <parameter name="sUsername" value="admin"/>
+    <parameter name="sPassword" value="S1mplyW0rkfl0w"/>
+    <classes>
+      <class name="automationFramework.Login">
+        <methods>
+          <include name="setup"/>
+          <include name="login" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.Login -->
+    </classes>
+  </test> <!-- SWF Test(failed) -->
+</suite> <!-- Failed suite [SWF Test Suite] -->
